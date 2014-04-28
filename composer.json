@@ -1,0 +1,22 @@
+{
+    "name": "chris",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:Mech7/Phapp.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:Mech7/blog.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:Mech7/user.git"
+        }
+    ],
+    "require": {
+        "cept/phapp": "dev-master",
+        "cept/blog": "dev-master",
+        "cept/user": "dev-master"
+    }
+}

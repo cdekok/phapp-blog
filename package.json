@@ -1,0 +1,9 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "3.*",
+    "gulp-watch": "0.*",
+    "gulp-livereload": "1.*"
+  }
+}
