@@ -16,11 +16,10 @@ return [
         'action' => 'index'
     ],
     'db' => [
-        '\Phalcon\Db\Adapter\Pdo\Postgresql' => [
-            "host" => "localhost",
-            "username" => "root",
-            "password" => "secret",
-            "dbname" => "blog"
-        ]
+        'dbname' => '{db.name}',
+        'user' => '{db.user}',
+        'password' => '{db.pass}',
+        'host' => '{db.host}',
+        'driver' => 'pdo_pgsql',
     ]
 ];
