@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mech7/blog.git",
-                "reference": "d12518e6f1f07e29dc6d4918903822d74bd203b5"
+                "reference": "e3b031b5a053bd036ab6897e49ffa679e2419c36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mech7/blog/zipball/d12518e6f1f07e29dc6d4918903822d74bd203b5",
-                "reference": "d12518e6f1f07e29dc6d4918903822d74bd203b5",
+                "url": "https://api.github.com/repos/Mech7/blog/zipball/e3b031b5a053bd036ab6897e49ffa679e2419c36",
+                "reference": "e3b031b5a053bd036ab6897e49ffa679e2419c36",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +43,7 @@
                 "source": "https://github.com/Mech7/blog/tree/master",
                 "issues": "https://github.com/Mech7/blog/issues"
             },
-            "time": "2014-04-28 11:02:22"
+            "time": "2014-04-28 16:07:48"
         },
         {
             "name": "cept/phapp",
@@ -51,17 +51,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mech7/Phapp.git",
-                "reference": "65a0d5eaa914a65eb5bdce704e1b2d373faa95e6"
+                "reference": "044f948d021447de9c05f06f6e17ea005a1b5fbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mech7/Phapp/zipball/65a0d5eaa914a65eb5bdce704e1b2d373faa95e6",
-                "reference": "65a0d5eaa914a65eb5bdce704e1b2d373faa95e6",
+                "url": "https://api.github.com/repos/Mech7/Phapp/zipball/044f948d021447de9c05f06f6e17ea005a1b5fbe",
+                "reference": "044f948d021447de9c05f06f6e17ea005a1b5fbe",
                 "shasum": ""
             },
             "require": {
+                "doctrine/dbal": "2.*",
                 "ext-phalcon": "1.*",
-                "php": ">=5.4.0"
+                "php": ">=5.4.0",
+                "symfony/console": "2.*"
             },
             "require-dev": {
                 "phpunit/phpunit": "3.*"
@@ -83,7 +85,7 @@
                 "source": "https://github.com/Mech7/Phapp/tree/master",
                 "issues": "https://github.com/Mech7/Phapp/issues"
             },
-            "time": "2014-04-28 12:23:41"
+            "time": "2014-04-28 17:34:57"
         },
         {
             "name": "cept/user",
@@ -91,12 +93,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mech7/user.git",
-                "reference": "d805d0091c859ad1149c34c594a90b6110d3ec1c"
+                "reference": "6e04ab6867cdece9a82f3939f7cc02dc92015c58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mech7/user/zipball/d805d0091c859ad1149c34c594a90b6110d3ec1c",
-                "reference": "d805d0091c859ad1149c34c594a90b6110d3ec1c",
+                "url": "https://api.github.com/repos/Mech7/user/zipball/6e04ab6867cdece9a82f3939f7cc02dc92015c58",
+                "reference": "6e04ab6867cdece9a82f3939f7cc02dc92015c58",
                 "shasum": ""
             },
             "require": {
@@ -124,7 +126,7 @@
                 "source": "https://github.com/Mech7/user/tree/master",
                 "issues": "https://github.com/Mech7/user/issues"
             },
-            "time": "2014-04-28 13:03:36"
+            "time": "2014-04-28 16:08:18"
         },
         {
             "name": "doctrine/annotations",
@@ -596,6 +598,61 @@
                 "parser"
             ],
             "time": "2013-01-12 18:59:04"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.4.4",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "2e452005b1e1d003d23702d227e23614679eb5ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/2e452005b1e1d003d23702d227e23614679eb5ca",
+                "reference": "2e452005b1e1d003d23702d227e23614679eb5ca",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "suggest": {
+                "symfony/event-dispatcher": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-04-27 13:34:57"
         }
     ],
     "packages-dev": [

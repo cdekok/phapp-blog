@@ -1,5 +1,6 @@
 <?php
 return [
+    'debug' => true, // Show stack trace on exception
     'modules' => [
         '\Cept\Blog' => [
             'className' => 'Cept\Blog\Module',
