@@ -51,12 +51,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mech7/Phapp.git",
-                "reference": "044f948d021447de9c05f06f6e17ea005a1b5fbe"
+                "reference": "d1bd5d076419d29b02dda4c055cc9588349171d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mech7/Phapp/zipball/044f948d021447de9c05f06f6e17ea005a1b5fbe",
-                "reference": "044f948d021447de9c05f06f6e17ea005a1b5fbe",
+                "url": "https://api.github.com/repos/Mech7/Phapp/zipball/d1bd5d076419d29b02dda4c055cc9588349171d0",
+                "reference": "d1bd5d076419d29b02dda4c055cc9588349171d0",
                 "shasum": ""
             },
             "require": {
@@ -85,7 +85,7 @@
                 "source": "https://github.com/Mech7/Phapp/tree/master",
                 "issues": "https://github.com/Mech7/Phapp/issues"
             },
-            "time": "2014-04-28 17:34:57"
+            "time": "2014-05-04 15:37:41"
         },
         {
             "name": "cept/user",
@@ -93,12 +93,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mech7/user.git",
-                "reference": "6e04ab6867cdece9a82f3939f7cc02dc92015c58"
+                "reference": "91180d2bc21ddfe4e9b96a51876bdca321ac4d73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mech7/user/zipball/6e04ab6867cdece9a82f3939f7cc02dc92015c58",
-                "reference": "6e04ab6867cdece9a82f3939f7cc02dc92015c58",
+                "url": "https://api.github.com/repos/Mech7/user/zipball/91180d2bc21ddfe4e9b96a51876bdca321ac4d73",
+                "reference": "91180d2bc21ddfe4e9b96a51876bdca321ac4d73",
                 "shasum": ""
             },
             "require": {
@@ -126,7 +126,7 @@
                 "source": "https://github.com/Mech7/user/tree/master",
                 "issues": "https://github.com/Mech7/user/issues"
             },
-            "time": "2014-04-28 16:08:18"
+            "time": "2014-05-04 15:38:05"
         },
         {
             "name": "doctrine/annotations",
@@ -166,7 +166,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
+                    "name": "Jonathan H. Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -185,9 +185,9 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
-                    "homepage": "https://github.com/schmittjoh",
+                    "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
                 }
             ],
@@ -512,7 +512,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan Wage",
+                    "name": "Jonathan H. Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -531,7 +531,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"

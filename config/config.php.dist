@@ -1,6 +1,11 @@
 <?php
 return [
     'debug' => true, // Show stack trace on exception
+    'views' => [
+        'viewsDir' => realpath(__DIR__.'/../views/'),
+        'layoutDir' => '../../../../layout',
+        'layout' => 'main'
+    ],
     'modules' => [
         '\Cept\Blog' => [
             'className' => 'Cept\Blog\Module',
@@ -11,10 +16,13 @@ return [
             'path'      => '../vendor/Cept/User/Module.php',
         ],
     ],
+    'notFoundRoute'   => [
+        'module'     => '\Cept\Blog',
+        'namespace'  => '\Cept\Blog\Controller',
+        'controller' => 'Error',
+        'action'     => 'notFound',
+    ],
     'defaultRoute' => [
-        'module' => '\Cept\Blog',
-        'controller' => 'PostController',
-        'action' => 'index'
     ],
     'db' => [
         'dbname' => '{db.name}',
