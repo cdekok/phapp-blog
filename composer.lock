@@ -11,15 +11,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mech7/blog.git",
-                "reference": "e3b031b5a053bd036ab6897e49ffa679e2419c36"
+                "reference": "fd7bd7976482df3436873ec611e944bcfb4e704e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mech7/blog/zipball/e3b031b5a053bd036ab6897e49ffa679e2419c36",
-                "reference": "e3b031b5a053bd036ab6897e49ffa679e2419c36",
+                "url": "https://api.github.com/repos/Mech7/blog/zipball/fd7bd7976482df3436873ec611e944bcfb4e704e",
+                "reference": "fd7bd7976482df3436873ec611e944bcfb4e704e",
                 "shasum": ""
             },
             "require": {
+                "erusev/parsedown": "1.*",
                 "ext-phalcon": "1.*",
                 "php": ">=5.4.0"
             },
@@ -43,7 +44,7 @@
                 "source": "https://github.com/Mech7/blog/tree/master",
                 "issues": "https://github.com/Mech7/blog/issues"
             },
-            "time": "2014-04-28 16:07:48"
+            "time": "2014-05-29 18:49:11"
         },
         {
             "name": "cept/phapp",
@@ -51,12 +52,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mech7/Phapp.git",
-                "reference": "d1bd5d076419d29b02dda4c055cc9588349171d0"
+                "reference": "7ea9c33e05e658db03cf27b51e098e8c7b0be6ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mech7/Phapp/zipball/d1bd5d076419d29b02dda4c055cc9588349171d0",
-                "reference": "d1bd5d076419d29b02dda4c055cc9588349171d0",
+                "url": "https://api.github.com/repos/Mech7/Phapp/zipball/7ea9c33e05e658db03cf27b51e098e8c7b0be6ac",
+                "reference": "7ea9c33e05e658db03cf27b51e098e8c7b0be6ac",
                 "shasum": ""
             },
             "require": {
@@ -85,7 +86,7 @@
                 "source": "https://github.com/Mech7/Phapp/tree/master",
                 "issues": "https://github.com/Mech7/Phapp/issues"
             },
-            "time": "2014-05-04 15:37:41"
+            "time": "2014-05-12 18:31:45"
         },
         {
             "name": "cept/user",
@@ -93,12 +94,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Mech7/user.git",
-                "reference": "91180d2bc21ddfe4e9b96a51876bdca321ac4d73"
+                "reference": "f7f707ba387934adbb31ce0a99cd931e4593f514"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Mech7/user/zipball/91180d2bc21ddfe4e9b96a51876bdca321ac4d73",
-                "reference": "91180d2bc21ddfe4e9b96a51876bdca321ac4d73",
+                "url": "https://api.github.com/repos/Mech7/user/zipball/f7f707ba387934adbb31ce0a99cd931e4593f514",
+                "reference": "f7f707ba387934adbb31ce0a99cd931e4593f514",
                 "shasum": ""
             },
             "require": {
@@ -109,6 +110,9 @@
             "require-dev": {
                 "phpunit/phpunit": "3.*"
             },
+            "bin": [
+                "bin/user.php"
+            ],
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -126,7 +130,7 @@
                 "source": "https://github.com/Mech7/user/tree/master",
                 "issues": "https://github.com/Mech7/user/issues"
             },
-            "time": "2014-05-04 15:38:05"
+            "time": "2014-05-29 18:46:39"
         },
         {
             "name": "doctrine/annotations",
@@ -344,16 +348,16 @@
         },
         {
             "name": "doctrine/common",
-            "version": "v2.4.1",
+            "version": "v2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "ceb18cf9b0230f3ea208b6238130fd415abda0a7"
+                "reference": "5db6ab40e4c531f14dad4ca96a394dfce5d4255b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/ceb18cf9b0230f3ea208b6238130fd415abda0a7",
-                "reference": "ceb18cf9b0230f3ea208b6238130fd415abda0a7",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/5db6ab40e4c531f14dad4ca96a394dfce5d4255b",
+                "reference": "5db6ab40e4c531f14dad4ca96a394dfce5d4255b",
                 "shasum": ""
             },
             "require": {
@@ -363,6 +367,9 @@
                 "doctrine/inflector": "1.*",
                 "doctrine/lexer": "1.*",
                 "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
             },
             "type": "library",
             "extra": {
@@ -415,7 +422,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2013-09-07 10:20:34"
+            "time": "2014-05-21 19:28:51"
         },
         {
             "name": "doctrine/dbal",
@@ -600,18 +607,57 @@
             "time": "2013-01-12 18:59:04"
         },
         {
+            "name": "erusev/parsedown",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/erusev/parsedown.git",
+                "reference": "d24439ada0704948deef0d3eda2ea20fd8db1747"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/d24439ada0704948deef0d3eda2ea20fd8db1747",
+                "reference": "d24439ada0704948deef0d3eda2ea20fd8db1747",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Parsedown": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Emanuil Rusev",
+                    "email": "hello@erusev.com",
+                    "homepage": "http://erusev.com"
+                }
+            ],
+            "description": "Parser for Markdown.",
+            "homepage": "http://parsedown.org",
+            "keywords": [
+                "markdown",
+                "parser"
+            ],
+            "time": "2014-05-21 20:20:46"
+        },
+        {
             "name": "symfony/console",
-            "version": "v2.4.4",
+            "version": "v2.4.5",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "2e452005b1e1d003d23702d227e23614679eb5ca"
+                "reference": "24f723436e62598c9dddee2a8573d6992504dc5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/2e452005b1e1d003d23702d227e23614679eb5ca",
-                "reference": "2e452005b1e1d003d23702d227e23614679eb5ca",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/24f723436e62598c9dddee2a8573d6992504dc5d",
+                "reference": "24f723436e62598c9dddee2a8573d6992504dc5d",
                 "shasum": ""
             },
             "require": {
@@ -652,7 +698,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-04-27 13:34:57"
+            "time": "2014-05-14 21:48:29"
         }
     ],
     "packages-dev": [
