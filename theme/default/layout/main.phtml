@@ -6,10 +6,10 @@
         <link rel="stylesheet" type="text/css" media="screen" href="css/master.css" />
     </head>
     <body>
-        <h1>Layout</h1>
-        
-        <div class="flash"><?php $this->flashSession->output() ?></div>
-
+        <h1>Layout</h1>       
+        <?php if(!empty($this->flashSession->getMessages(null, false))):?>
+            <div class="flash"><?=$this->flashSession->output()?></div>        
+        <?php endif;?>
         <?=$this->getContent()?>
     </body>
 </html>

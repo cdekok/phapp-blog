@@ -30,5 +30,8 @@ return [
         'password' => '{db.pass}',
         'host' => '{db.host}',
         'driver' => 'pdo_pgsql',
+    ],
+    'session' => [
+        'uniqueId' => 'blog'
     ]
 ];
