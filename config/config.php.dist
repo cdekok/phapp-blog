@@ -1,6 +1,7 @@
 <?php
 return [
     'debug' => true, // Show stack trace on exception
+    'baseUrl' => '/', // base url for url helper
     'views' => [
         'viewsDir' => realpath(__DIR__.'/../views/'),
         'layoutDir' => '../../../../layout',
