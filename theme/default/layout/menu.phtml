@@ -1,0 +1,25 @@
+<?php 
+/* @var $acl \Cept\User\Acl\Acl */
+$acl = $this->getDI()->get('\Cept\User\Acl\Acl');
+/* @var $identity \Cept\User\Auth\Identity */
+$identity = $this->getDI()->get('\Cept\User\Auth\Identity');
+?>
+<ul>    
+    <?php if(!$identity->isLoggedIn()):?>
+    <li>
+        <a href="<?=$this->url->get(['for' => 'user-login'])?>">login</a>
+    </li>    
+    <?php else:?>
+    <li>
+        <a href="<?=$this->url->get(['for' => 'user-logout'])?>">logout</a>
+    </li>
+    <li>
+        <a href="<?=$this->url->get(['for' => 'user-profile'])?>">profile</a>
+    </li>
+    <?php endif;?>    
+    <?php if($identity->isLoggedIn() && $acl->isAllowed($identity->getUser(), 'User', 'create')):?>
+        <li>
+            <a href="#">users</a>
+        </li>
+    <?php endif;?>
+</ul>

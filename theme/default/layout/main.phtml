@@ -10,6 +10,7 @@
         <?php if(!empty($this->flashSession->getMessages(null, false))):?>
             <div class="flash"><?=$this->flashSession->output()?></div>        
         <?php endif;?>
+        <?=$this->partial('layout/menu')?>
         <?=$this->getContent()?>
     </body>
 </html>

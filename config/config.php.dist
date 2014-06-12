@@ -34,5 +34,20 @@ return [
     ],
     'session' => [
         'uniqueId' => 'blog'
+    ],
+    'cache' => [
+        'frontend' => [
+            'className' => '\Phalcon\Cache\Frontend\Data',
+            'options' => null
+        ],
+        'backend' => [
+            'className' => '\Phalcon\Cache\Backend\File',
+            'options' => [
+                'cacheDir' => getcwd().'/cache/'
+            ]
+        ]
+    ],
+    'factories' => [
+        'cache' => 'Phapp\Cache\CacheFactory'
     ]
 ];
